@@ -13,9 +13,5 @@ public class DayOneExercise {
         System.out.println(i%100/10);
         System.out.println("该数字的个位是：");
         System.out.println(i%100%10);
-
-
-
-
     }
 }
