@@ -12,7 +12,7 @@ public class streamdemo1 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("张三三-23");
-        list.add("张四-2");
+        list.add("张四-25");
         list.add("张五-25");
         list.add("赵六-25");
         Map <String,Integer> m =list.stream().collect(Collectors.toMap(s->s.split("-")[0], s->Integer.parseInt(s.split("-")[1])));
